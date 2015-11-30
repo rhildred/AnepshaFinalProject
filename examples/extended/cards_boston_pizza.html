@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>nativeDroid II - jQueryMobile Template</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css" />
+		<link rel="stylesheet" href="../../vendor/waves/waves.min.css" />
+		<link rel="stylesheet" href="../../css/nativedroid2.css" />
+
+				<style>
+					/* Prevent FOUC */
+					body { opacity: 0; }
+				</style>
+
+	</head>
+	<body>
+
+		<div data-role="page">
+
+			<nd2-include data-src="../fragments/panel.left.html"></nd2-include>
+
+
+			<div data-role="header" data-position="fixed">
+				<a href="../../index.html" class="ui-btn ui-btn-left"><i class="zmdi zmdi-arrow-back zmd-fw"></i></a>
+				<h1>Boston Pizza Menu</h1>
+			</div>
+
+			<div role="main" class="ui-content" data-inset="false">
+
+				<!-- Simple Card !-->
+
+				<div class="nd2-card">
+
+					<div class="card-media">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/BostonPizzaLondon.JPG">
+					</div>
+
+					<div class="card-supporting-text">
+						Boston Pizza is a Canadian-based restaurant chain that owns and franchises locations in Canada, 
+						the United States and Mexico.
+
+						<table data-role="table"  data-mode="columntoggle" class="ui-responsive table-stroke">
+		              <thead>
+		                <tr>
+		                  <th>Price</th>
+		                  <th>Food</th>
+		                </tr>
+		              </thead>
+		              <tbody>
+		                <tr>
+		                  <td>$12.99</td>
+		                  <td>Pizza</td>
+		                </tr>
+		                <tr>
+		                  <td>$15.99</td>
+		                  <td>Pasta Bowl</td>
+		                </tr>
+		                <tr>
+		                  <td>$3.99</td>
+		                  <td>Garlic Toast</td>
+		                </tr>
+		                <tr>
+		                	<td>$11.99</td>
+		                	<td>Southwest Sandwich</td>
+		                </tr>
+		              </tbody>
+            		</table>
+            		<br>
+            		<div class="card-media">
+					<a href="forms_boston_pizza.html" class="ui-btn ui-btn-raised clr-primary waves-effect waves-button waves-effect waves-button">Place Order!</a>
+					</div>
+
+						<h3>Nearest Location</h3>
+					</div>
+
+					<div class="card-media">
+						<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="500" height="300" src="https://maps.google.com/maps?hl=en&q=499 Dundas St, Cambridge, ON N1R 5R8&ie=UTF8&t=roadmap&z=6&iwloc=B&output=embed"><div><small><a href="http://embedgooglemaps.com">embedgooglemaps.com</a></small></div><div><small><a href="http://buyproxies.io/">buy private proxies</a></small></div></iframe>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+		<script src="../../vendor/waves/waves.min.js"></script>
+		<script src="../../js/nativedroid2.js"></script>
+		<script src="../../nd2settings.js"></script>
+
+	</body>
+</html>

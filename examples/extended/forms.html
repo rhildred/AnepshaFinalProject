@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>nativeDroid II - jQueryMobile Template</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="../../vendor/jquerymobile/jquery.mobile.min.css" />
+		<link rel="stylesheet" href="../../vendor/waves/waves.min.css" />
+		<link rel="stylesheet" href="../../vendor/wow/animate.css" />
+		<link rel="stylesheet" href="../../css/nativedroid2.css" />
+
+		<style>
+			/* Prevent FOUC */
+			body { opacity: 0; }
+		</style>
+
+	</head>
+	<body>
+
+		<div data-role="page" class="nd2-no-menu-swipe">
+
+			<nd2-include data-src="../fragments/panel.left.html"></nd2-include>
+
+			<div data-role="header" data-position="fixed" class="wow fadeIn">
+				<a href="../extended/cards.html" class="ui-btn ui-btn-left"><i class="zmdi zmdi-arrow-back zmd-fw"></i></a>
+				<h1 class="wow fadeIn" data-wow-delay='0.4s'>Place Order - Taco Bell</h1>
+			</div>
+
+			<div role="main" class="ui-content wow fadeIn" data-inset="false" data-wow-delay="0.2s">
+
+
+				<form>
+
+
+				<div class="row">
+                    <div class="nd2-card">
+    					<div class="col-xs-12">
+    						<div class="box">
+
+                                <div class="card-media">
+                            <img src="https://s3.amazonaws.com/pictpl/be814293-0193-f17b-6548-775f60af8609.jpg">
+                        </div>
+
+                        <div class="card-supporting-text">
+                            Taco Bell is an American chain of fast-food restaurants based in Irvine, California.
+                        </div>
+                    </div>
+
+
+                            <label for="flip2b">Delivery?</label>
+                        <select name="flip2" id="flip2b" data-role="flipswitch">
+                            <option value="off">Yes</option>
+                            <option value="on">No</option>
+                        </select>
+
+                        <label for="name2b">Name:</label>
+                        <input type="text" name="name2" id="name2b" value="" data-clear-btn="true" placeholder="Type Your Name Here...">
+
+                        <label for="select-choice-1b" class="select">Food Type</label>
+                        <select name="select-choice-1" id="select-choice-1b" data-native-menu="false">
+                            <option value="javascript">Select Food</option>
+                            <option value="css">Pizza</option>
+                            <option value="html">Pasta</option>
+                            <option value="csharp">Cheese Burger</option>
+                            <option value="java">Taco</option>
+                            </select>
+                        </div>
+
+                        <div data-role='rangeslider'>
+                            <label for='rangeslider1a'>Spice Level</label>
+                                <input type='range' name='range1a' id='range1a' min='0' max='10' value='5'>
+                            <label for='rangeslider1b'>RangeSlider:</label>
+                                <input type='range' name='range1b' id='range1b' min='0' max='10' value='7'>
+                        </div>
+
+						<fieldset data-role="controlgroup">
+                            <legend>Drinks</legend>
+                            <input type="checkbox" name="checkbox-1a" id="checkbox-1ab" checked="">
+                            <label for="checkbox-1ab">Pepsi</label>
+                            <input type="checkbox" name="checkbox-2a" id="checkbox-2ab">
+                            <label for="checkbox-2ab">Coca Cola</label>
+                            <input type="checkbox" name="checkbox-3a" id="checkbox-3ab">
+                            <label for="checkbox-3ab">Sprite</label>
+                            <input type="checkbox" name="checkbox-4a" id="checkbox-4ab">
+                            <label for="checkbox-4ab">Water</label>
+                        </fieldset>
+
+						<fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+                            <legend>Payment Method</legend>
+                            <input type="radio" name="radio-choice-a" id="radio-choice-ab" value="choice-a" checked="checked">
+                            <label for="radio-choice-ab">Debit</label>
+                            <input type="radio" name="radio-choice-a" id="radio-choice-bb" value="choice-b">
+                            <label for="radio-choice-bb">Visa</label>
+                            <input type="radio" name="radio-choice-a" id="radio-choice-cb" value="choice-c">
+                            <label for="radio-choice-cb">MasterCard</label>
+                        </fieldset>
+                        <a href="#" class="ui-btn ui-btn-raised clr-primary waves-effect waves-button waves-effect waves-button">Process Order!</a>
+                    </div>
+				</div>
+
+				</form>
+
+
+			</div>
+
+		</div>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+		<script src="../../vendor/waves/waves.min.js"></script>
+		<script src="../../vendor/wow/wow.min.js"></script>
+		<script src="../../js/nativedroid2.js"></script>
+		<script src="../../nd2settings.js"></script>
+
+	</body>
+</html>
