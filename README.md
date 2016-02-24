@@ -1,4 +1,4 @@
-# Droidfoot 2 Student Project
+# [Droidfoot 2 Student Project](https://github.com/rhildred/Droidfoot2StudentProject)
 
 This was a Partially Working Prototype from an INFO3130 student project at Conestoga.	I am using it as an example, because I thought that the students came up with a simple/elegant solution that I preferred to the [nativedroid2 demo on github](http://nd2.godesign.ch/). The Prototype contains list and categories of restaurants with full description of menu, prices, operating times and locations.
 
